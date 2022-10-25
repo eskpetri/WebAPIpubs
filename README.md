@@ -24,3 +24,6 @@ You can use both side by side ie do pessimistic database locking using sql and d
 
 Old question about performance but gives and answer that row count is not that low. 
 https://stackoverflow.com/questions/19311491/how-entity-framework-works-for-large-number-of-records
+
+EF Core how to do it (and how not to do it) and Dapper & little comparison
+https://youtu.be/qkJ9keBmQWo?t=7842
