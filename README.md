@@ -18,6 +18,9 @@ https://github.com/ErikEJ/EFCorePowerTools
 # Notes to my self ----------------------------------------------------
 
 Study Entity Framework performance and check out consept of read only(Reading are directed to different DB) ie Cosmos DB and writing is handled via entity framework and needs to be replicated at some point in time to Cosmos DB.
-Second thing to study is what are EF capasity to deliver vs Manually writing SQL. When you can see the difference? Is it 20 000 or 100 000 maybe 500 000 row tables combined to same size other tables. 
+Second thing to study is what are EF capasity to deliver vs Manually writing SQL. When you can see the difference? Is it 100 000 or 1 000 000 maybe 5 000 000 rows tables combined to same size other tables. 
 I just know that this kind of Framework has limits but where they are in practise. In small systems EF is way to go where you don't need pessimistic database locking.
 You can use both side by side ie do pessimistic database locking using sql and do other stuff using EF. EF supports optimistic locking of DB. 
+
+Old question about performance but gives and answer that row count is not that low. 
+https://stackoverflow.com/questions/19311491/how-entity-framework-works-for-large-number-of-records
